@@ -1,0 +1,62 @@
+@font-face{
+	font-family:"Noto Sans KR";
+	src:url("../fonts/NotoSansKR-VariableFont_wght.ttf") format("truetype");
+}
+
+.background{
+	background-image:url("../data/wallpaper.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	line-height:50%;
+	font-family:"Noto Sans KR";
+}
+.mainPanel{
+	position:absolute;
+	top:0;left:0;right:0;bottom:150px;
+	padding:100px;
+}
+.apphomeIcons{
+	background-color:#ffffff00;
+	border-radius:25px;
+	border-width:0px;
+	padding:10px;
+	transition:.2s;
+	margin:5%;
+}
+.apphomeIcons:hover{
+	background-color:#ffffffcc;
+	backdrop-filter:blur(10px);
+}
+.appIcons{
+	background-color:#ffffff00;
+	border-radius:25px;
+	border-width:0px;
+	padding:10px;
+	transition:.2s;
+}
+.appIcons:hover{
+	background-color:#ffffffcc;
+	backdrop-filter:blur(10px);
+}
+.appIconImg{
+	width:100px;height:100px;
+}
+.appIconText{
+	font-size:20px;
+	margin:0px;
+}
+.dockPanel{
+	position:absolute;
+	left:30%;right:30%;
+	bottom:15px;
+	background-color:#ffffffcc;
+	height:100px;
+	padding:20px;
+	backdrop-filter:blur(20px);
+	border-radius:25px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
