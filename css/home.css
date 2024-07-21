@@ -74,3 +74,24 @@
 	border-radius:25px;
 	border-width:0;
 }
+.windowMenuButton{
+	background-color:#ffffffcc;
+	border-width:0px;
+	backdrop-filter:blur(10px);
+	width:10%;height:20px;
+	border-radius:20px;
+	color:#0091ff;
+	font-weight:800;
+	font-size:15px;
+	position:absolute;
+	left:45%;top:10px;
+	transition:.5s;
+}
+.windowMenuButton:hover{
+	background-color:#ddddddcc;
+}
+.datetime{
+	position:absolute;
+	left:30px;top:0px;
+	font-size:15px;
+	z-index:0;
