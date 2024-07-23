@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="./css/home.css">
 		<link rel="stylesheet" href="./css/systemUI.css">
 		<link rel="stylesheet" href="./css/controlCenter.css">
+		<link rel="stylesheet" href="./css/window.css">
 		<script src="./js/home.js"></script>
 	</body>
 	<div class="mainPanel" id="mainPanel">
@@ -35,27 +36,15 @@
 			<img class="appIconImg" id="appIconImg" src="./icons/files.png">
 		</button>
 	</div>
+
 	<div class="window" id="win1">
-		<iframe class="appScreen" id="app1" src="https://www.w3schools.com">
+		<iframe class="appScreen" id="app1" src="./apps/files.html">
 		</iframe>
-		<button class="windowMenuButton" id="windowMenuButton1">
-			···
+		<button class="closeW" id="closeW">
+			<img class="winCtrlImg" src="./icons/close.svg">
 		</button>
 	</div>
-	<div class="windowMenu" id="wMenu1">
-		<button class="winMenuB" id="backB1">
-			<img class="winMenuB" src="./icons/arrow-back.svg">
-		</button>
-		<button class="winMenuB" id="closeB1">
-			<img class="winMenuB" src="./icons/arrow-back.svg">
-		</button>
-		<button class="winMenuB" id="maxB1">
-			<img class="winMenuB" src="./icons/arrow-back.svg">
-		</button>
-		<button class="winMenuB" id="minB1">
-			<img class="winMenuB" src="./icons/arrow-back.svg">
-		</button>
-	</div>
+
 	<div class="controlCenter" id="controlCenter">
 		<div class="wifiBox" id="wifiBox">
 			<button class="wifiToggle" id="wifiToggle">
