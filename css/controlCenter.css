@@ -1,0 +1,67 @@
+.controlCenter{
+        position:absolute;
+        top:50px;right:10px;
+        width:500px;height:700px;
+        background-color:#ffffff55;
+        backdrop-filter:blur(50px);
+        border-radius:25px;
+        padding:10px;
+        box-shadow: 0px 1px 20px 1px #00000055;
+        transition:.5s;
+        animation-duration:.5s;
+        transform-origin:400px -20px;;
+        z-index:3;
+}
+.wifiBox{
+        position:relative;                                      left:0px;top:0px;
+        background-color:#ffffffaa;
+        width:245px;height:70px;
+        border-radius:25px;
+        box-shadow: 0px 1px 20px 1px #00000055;
+}
+.wifiToggle{
+        width:50px;height:50px;
+        position:absolute;
+        left:10px;top:10px;
+        border-radius:25px;
+        border-width:0px;
+        background-color:#367cffff;
+        color:white;
+}
+.wifiLabel{
+        position:absolute;
+        left:70px;top:5px;
+        font-weight:bold;
+        font-size:15px;
+}
+.wifiLabelSub{
+        position:absolute;
+        left:70px;top:25px;                                     font-size:15px;
+}
+.btBox{
+        position:absolute;
+        right:10px;top:10px;
+        background-color:#ffffffaa;
+        width:245px;height:70px;
+        border-radius:25px;
+        box-shadow: 0px 1px 20px 1px #00000055;
+}
+.btToggle{
+        width:50px;height:50px;
+        position:absolute;
+        left:10px;top:10px;
+        border-radius:25px;
+        border-width:0px;
+        background-color:#55555533;
+        color:black;
+}
+.btLabel{
+        position:absolute;
+        left:70px;top:5px;
+        font-weight:bold;
+        font-size:15px;
+}
+.btLabelSub{                                                    position:absolute;
+        left:70px;top:25px;
+        font-size:15px;
+}

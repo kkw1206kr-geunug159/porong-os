@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html class="background" id="background">
+<html class="wallpaper" id="background">
 	<body>
 		<title>PorongOS</title>
 		<link rel="stylesheet" href="./css/home.css">
+		<link rel="stylesheet" href="./css/systemUI.css">
+		<link rel="stylesheet" href="./css/controlCenter.css">
 		<script src="./js/home.js"></script>
 	</body>
 	<div class="mainPanel" id="mainPanel">
@@ -13,7 +15,7 @@
 			</button>
 		</tr>
 	</div>
-	<div class="dockPanel" id="dockPanel">
+	<div class="dock" id="dock">
 		<button class="appIcons" id="appIcon">
 			<img class="appIconImg" id="appIconImg" src="./icons/allApps.svg">
 		</button>
@@ -71,8 +73,8 @@
 		</div>
 	</div>
 	</div>
-	<div class="statusbar" id="statusbar">
-		<button class="datetime" id="datetime" onclick="ctrlPan();">
+	<div class="systemTopBar" id="statusbar">
+		<button class="controlCenterEntry" id="datetime" onclick="ctrlPan();">
 			7월 21일 일요일 12:06
 		</button>
 	</div>
