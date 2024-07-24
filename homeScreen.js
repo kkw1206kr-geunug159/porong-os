@@ -34,8 +34,9 @@ function setDock(...args){
 }
 
 function addIconsInDock(...args){
-	const dock=document.getElementById("dock");
+	const dock=document.getElementById("dockPanel");
 	var iconToAppend=document.createElement("button");
 	iconToAppend.id="dockIcon"+args[0];
+	iconToAppend.innerHTML="test"
 	dock.append(iconToAppend);
 }
